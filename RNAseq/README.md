@@ -8,3 +8,4 @@ The RNAseq workflow is as follows:
   7. featureCounts.q
   8. deseq2.R
 
+Distance plots graphing log2FC versus genome coordinates were used to visualize differential gene expression from DESeq2 output tables using the script distance_plots.R
