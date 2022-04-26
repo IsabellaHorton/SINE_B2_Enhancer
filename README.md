@@ -7,7 +7,7 @@ add paper name and doi here
 add accession code
 
 ### UCSC session:
-add session link
+https://genome.ucsc.edu/s/Isabella.Horton/SINE_B2_Enhancer 
 
 ### Programs used:
 - bedtools v2.28.0 (http://bedtools.readthedocs.io/en/latest/)
