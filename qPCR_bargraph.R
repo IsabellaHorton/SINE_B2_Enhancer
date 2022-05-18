@@ -35,7 +35,7 @@ ggplot(data, aes(x=group, y=value, fill=group)) +
   geom_jitter(shape=16, position=position_jitter(0), size=3) +
   theme(plot.title = element_text(hjust = 0.1, size=12), axis.text=element_text(size=10)) +
   theme(axis.text.x = element_text(angle=-45, vjust=0.9, hjust=0.2)) +
-  labs(y="Dicer1 Expression", x = "group") +
+  labs(y="Dicer1 DeltaCq Expression (Normalized to CTCF)", x = "group") +
   stat_compare_means(comparisons = all_comparisons, method = "t.test", label = "p.signif")
 
 # calculate stats
@@ -57,7 +57,7 @@ ggplot(data, aes(x=group, y=value)) +
   stat_compare_means(aes(x=group, y=value), comparisons = all_comparisons, method = "t.test", var.equal = "TRUE", label = "p.signif") +
   theme_classic(base_size = 10) +
   geom_point(position="jitter", size=3) +
-  labs(y="Dicer1 Expression") +
+  labs(y="Dicer1 DeltaCq Expression (Normalized to CTCF)") +
   theme(axis.text.x = element_text(angle=-45, vjust=0.9, hjust=0.2)) +
   ylim(0,3.5)
 
@@ -66,6 +66,6 @@ ggplot(data_stats, aes(x=group, y=value)) +
   geom_bar(position=position_dodge(), stat="identity") +
   geom_errorbar(aes(ymin=value-se, ymax=value+se),width=.2, position=position_dodge(.9)) +
   theme_classic(base_size = 10) +
-  labs(y="Dicer1 Expression") +
+  labs(y="Dicer1 DeltaCq Expression (Normalized to CTCF)") +
   theme(axis.text.x = element_text(angle=-45, vjust=0.9, hjust=0.2)) +
   ylim(0,3.5)
