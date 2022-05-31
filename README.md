@@ -3,7 +3,7 @@
 ### Scripts and files used in:
 Mouse B2 SINE Elements Function as IFN-inducible Enhancers
 
-### GEO:
+### GEO Accession ID:
 GSE202574
 
 ### UCSC session:
