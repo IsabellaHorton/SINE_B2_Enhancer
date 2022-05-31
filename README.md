@@ -1,10 +1,10 @@
 # SINE B2 Enhancer
 
 ### Scripts and files used in:
-add paper name and doi here
+Mouse B2 SINE Elements Function as IFN-inducible Enhancers
 
 ### GEO:
-add accession code
+GSE202574
 
 ### UCSC session:
 https://genome.ucsc.edu/s/Isabella.Horton/SINE_B2_Enhancer 
